@@ -1,0 +1,159 @@
+body{
+    text-align: center;
+}
+
+.instruction1{
+    align-items: center;
+    justify-content: center;
+}
+#instruction{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 800px;
+     margin-left: 400px;
+}
+.instruction1 button{ 
+    margin-top: 20px;
+    height: 2rem;
+    border-radius: 5px;
+    
+}
+
+.score {
+    background-color: rgb(158, 233, 204);
+    width: 70%;
+    max-width: 400px;
+    border-radius: 1rem;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+#highest-score {
+    font-size: 1rem;
+    color: rgb(97, 30, 97);
+}
+
+.btn{
+    height:120px;
+    width:120px;
+    border-radius: 10%;
+    border:2px solid black;
+    margin: 1rem ;
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.yellow{
+    background-color: #d580e5;
+}
+.red{
+    background-color: #4e9cc9;
+}
+.green{
+    background-color: #e66c5cd8;
+}
+.purple{
+    background-color: #71db82;
+}
+
+.flash{
+    background-color: rgb(236, 240, 36);
+}
+
+.userflash{
+    background-color: rgb(240, 12, 5);
+}
+
+
+.start,
+.restart {
+    margin-top: 1rem;
+    background-color: rgb(86, 161, 180);
+    width: 8rem;
+    height: 3rem;
+    border-radius: 3rem;
+    border: none;
+    color: rgb(14, 12, 12);
+}
+
+/* Responsive media queries */
+@media (max-width: 1024px) {
+    .score{
+        margin-top: 0.2rem;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .container {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .btn {
+        width: 100px;
+        height: 100px;
+        border-radius: 15%;
+        margin: 0.5rem;
+    }
+    #instruction{
+        width:600px;
+        margin-left: 200px;
+    }
+}
+@media (max-width: 768px) {
+    .score{
+        margin-top: 0.2rem;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .container {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .btn {
+        width: 100px;
+        height: 100px;
+        border-radius: 15%;
+        margin: 0.5rem;
+    }
+    #instruction{
+        width:500px;
+        margin-left: 90px;
+    }
+}
+@media (max-width: 480px) {
+    .score{
+        margin-top: 0.2rem;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .container {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .btn {
+        width: 100px;
+        height: 100px;
+        border-radius: 15%;
+        margin: 0.5rem;
+    }
+    #instruction{
+        width:320px;
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="Simon-Says.css">
+</head>
+<body>
+     
+ <div class="instruction1">
+    <button style="color: blueviolet; font-family: cursive;" onclick="showDiv()" ondblclick="OffDiv()">Instruction To Play Game!!</button>
+    <div id="instruction" style="display: none;" class="answer_list">
+        There four color box . Once PRESS START button then box blink with YELLOW color.
+        You Press the right blink box then it BLINK RED with Color . After Each move LEVEL increses and you remeber all preveiou sequence of the BLINK Box.
+        Once You Failed then  Your hightest marks show and you again restart your game.
+    </div>
+</div>
+    <div class="main">
+    <div class="score">
+        <h1 style="color: rgb(163, 27, 163);">SimonSays Game</h1><span id="highest-score">Highest Score:0</span>
+    </div>
+    <h2>Press Start To Play Game</h2>
+ <div class="btn-container">
+    <div class="line-one">
+    <div class="btn red" type="button" id="red"></div>
+    <div class="btn yellow" type="button" id="yellow"></div>
+    </div>
+    <div class="line-two">
+    <div class="btn green" type="button" id="green"></div>
+    <div class="btn purple" type="button" id="purple">
+    </div>
+    </div>  
+ </div>
+ <button class="start">START</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="restart">RESET</button>
+ </div>
+
+
+
+ <script src="Simon-Says.js"></script>
+</body>
+</html>
